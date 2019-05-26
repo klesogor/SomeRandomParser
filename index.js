@@ -49,7 +49,7 @@ function logStopData(stop)
     if(stop.times.length > 0){
         console.log(`${stop.transport_name} ${stop.route_name} прибудет в ${times[0].arrival_time_formatted}`);
     } else {
-        console.log(`${stop.transport_name} ${stop.route_name} ходит с интервалом ${stop.interval}`)
+        console.log(`${stop.transport_name} ${stop.route_name} ходит с интервалом ${stop.interval} минут`);
     }
 }
 
